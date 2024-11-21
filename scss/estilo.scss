@@ -1,0 +1,312 @@
+$color1:#000
+/* reseteo de codigo*/
+*{
+margin: 0;
+padding: 0;
+}
+@font-face {
+        font-family: "FrankRuhlLibre";
+        src: url(../font/FrankRuhlLibre-VariableFont_wght.ttf);
+}
+body {
+    font-family:"FrankRuhlLibre";
+    }
+
+header{ background: imlinear-gradient(183deg, #a89e9e00 20px, #fbf8f8 10rem, #809bb5 100%);
+    .bs-cabecera{
+        .bs-caberecera-redes{
+            text-align: center;
+            display: flex;
+            margin: 1px;
+            padding: 1px;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            .a{
+                .bi{
+                    color: $color1;
+                    text-decoration: none;
+                
+                    .bi .bi-instagram{}
+                }
+            }
+            .a{
+                .bi{
+                    .bi .bi-facebook{}
+                }
+            }    
+            .a{
+                .bi{
+                    .bi .bi-youtube{}
+                }
+            }
+            .a{
+                .bi{
+                    .bi .bi-whatsapp{}
+                }
+            }
+            .a{
+                .bi{
+                    .bi .bi-twitter-x{}
+                }
+            }
+        } 
+        .nav{                    
+            .navbar .navbar-expand-lg .navbar-light .bg-light{
+                display: flex;
+                flex-wrap: inherit;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                .container-fluid{
+                    display: flex;
+                    flex-wrap: inherit;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-direction: row-reverse;
+                    .a{
+                        .navbar-brand{
+                            .img{ } 
+                        } 
+                    }  
+                    .button{
+                        .navbar-toggler{
+                            .span{
+                                .navbar-toggler-icon{}
+                            }
+                        }
+                    }
+                    .collapse .navbar-collapse{
+                        .ul{
+                            .navbar-nav .me-auto .mb-2 .mb-lg-0 {
+                                .li{ 
+                                    .nav-item{
+                                        .a{
+                                            .nav-link{ }
+                                        }
+                                    }
+                                }
+                            }
+                            .ul {
+                                .li{
+                                    .dropdown-menu{
+                                        .li{
+                                            .a{
+                                                .dropdown-item{
+                                                    .hr{
+                                                        .dropdown-divider{}
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    .form{
+                        .d-flex{
+                            .input{
+                                .form-control .me-2{}
+                            .button{
+                                .btn .btn-outline-success{}
+                            }
+                            .a{
+                                .boton_login{
+                                    .i{
+                                        .bi .bi-person-circle{}
+                                    }
+                                }
+                            }
+                            }
+                        }   
+                    }
+                    }
+            
+                }
+            }
+        }
+    }
+}
+
+footer{
+    .ul{
+        .footer_pos{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(4, 50px);
+            background-color: #ffff;
+            color: #000;
+            align-content: center;
+            justify-content: space-evenly;
+            align-items: baseline;
+            justify-items: center;
+            text-align: center;
+            .li{
+                .h3{ 
+                    text-transform:uppercase;
+                    .pie_titulos{    font-size: 1.15rem;}
+                }
+                .h4{font-size: 1rem;
+                    text-align: center;
+                    .bs-footer__title{   
+                         font-size: 1rem;
+                        .a{
+                            .footer_datos .bi{   
+                                display: block;
+                                text-align: center;
+                                color: #000;
+                                .i{
+                                    .bi .bi-telephone-plus{}
+
+                                }
+                            }  
+                        }
+                    }
+                } 
+                .h4{
+                    font-size: 1rem;
+                    text-align: center;
+                    .bs-footer__title{
+                        font-size: 1rem
+                        .a{
+                            .footer_datos{ 
+                                display: block;
+                                text-align: center;
+                                color: #000;
+                                .i{
+                                    .bi .bi-telephone-plus{}
+                                }
+                            }
+                        }
+                    }
+                }
+                        .a{
+                            .bs-footer_link_contacto{display: block;
+                                padding: 7px;
+                                font-weight: 700;
+                                color: #000000;
+                                text-transform:uppercase;
+                                font-size: 1rem;
+                                text-decoration: underline;}
+                        }
+            }
+            .li{
+                .h3{text-transform:uppercase;
+                    .pie_titulos{    font-size: 1.15rem;
+                        .h4{
+                            .a{
+                                .bs-footer__link{   
+                                    display: block;
+                                    padding: 7px;
+                                    text-align: center;
+                                    color: #000;
+                                    text-transform: uppercase;
+                                    font-size: 1rem;}
+                            }
+                        }
+                    }
+
+                }
+            }
+            .li{
+                .h3{text-transform:uppercase;
+                    .pie_titulos{
+                        font-size: 1.15rem;
+                        .a{
+                            .footer_Direccion_horarios .bi{  
+                                display: block;
+                                padding: 1rem;
+                                text-align: center;
+                                color: #000;
+                                text-decoration: none;
+                                .i{
+                                    .bi .bi-geo-alt{}
+                                }
+                            }
+                        }
+                        .a{
+                            .btn .btn-primary .boton_mapa{
+                                position: relative;
+                                left: 1rem;
+                            }
+                        }
+                        .a{
+                            .footer_Direccion_horarios .bi{
+                                display: block;
+                                padding: 1rem;
+                                text-align: center;
+                                color: #000;
+                                text-decoration: none;
+                                .i{
+                                    .bi .bi-clock{}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .li{
+                .h3{
+                    text-transform:uppercase;
+                    .pie_titulos{
+                        font-size: 1rem;
+                        .redes{
+                            color: #a80614;
+                            text-decoration: none;
+                            text-align: center;
+                            .a{
+                                .bi{
+                                    .i{
+                                      .bi .bi-instagram {}
+                                    }
+                                }
+                            }
+                            .a{
+                                .bi{
+                                    .i{
+                                        .bi .bi-facebook {}
+                                    }
+                                }
+                            }
+                            .a{
+                                .bi{
+                                    .i{
+                                        .bi .bi-youtube {}
+                                    }
+                                }
+                            }
+                            .a{
+                                .bi{
+                                    .i{
+                                        .bi .bi-whatsapp {}
+                                    }
+                                }
+                            }
+                            .a{
+                                .bi{
+                                    .i{
+                                        .bi .bi-twitter-x {}
+                                    }
+                                }
+                            }
+                        }
+                        .logo2{
+                            text-align: center;
+                            padding: 1rem;
+                            .img{
+                                .logo3{   
+                                     width: 92px;
+                                    animation: gira 5s linear infinite;}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+      
+
+                            
+  
